@@ -3,6 +3,7 @@ import {fontFamily} from 'tailwindcss/defaultTheme'
 import scrollbar from 'tailwind-scrollbar'
 
 export default  {
+  
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
@@ -11,7 +12,9 @@ export default  {
     "./app.vue",
     "./error.vue",
   ],
+  
   theme: {
+    
     container: {
       center: true,
       padding: "2rem",
@@ -79,6 +82,6 @@ export default  {
       },
     },
   },
-  plugins: [scrollbar({noncompatible:true})],
+  plugins: [scrollbar({nocompatible:true})],
 }
 

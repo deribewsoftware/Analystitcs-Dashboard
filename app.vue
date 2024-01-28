@@ -6,10 +6,13 @@
       <!-- sidebar -->
       <Sidebar class="hidden lg:block lg:col-span-3"/>
       <!-- main -->
-      <main>
+      <main class="py-5 lg:col-span-5">
 <!-- status card -->
+<StatusCard/>
 <!-- customers list -->
+<NewCustomer/>
 <!-- sales chart -->
+<SalesChart/>
 <!-- recent orders -->
       </main>
       <div class="">
@@ -20,6 +23,8 @@
   </div>
 </template>
 <script>
+import { SalesChart } from '#build/components';
+
 </script>
 <style>
 body {

@@ -22,8 +22,10 @@
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/tailwindcss": "^6.11.1",
     "@vueuse/nuxt": "^10.7.2",
+    "chart.js": "^4.4.1",
     "nuxt-headlessui": "^1.1.5",
     "nuxt-icon": "^0.6.8",
-    "tailwind-scrollbar": "^3.0.5"
+    "tailwind-scrollbar": "^3.0.5",
+    "vue-chartjs": "^5.3.0"
   }
 }
