@@ -18,3 +18,16 @@
     </div>
   </div>
 </template>
+<script>
+</script>
+<style>
+body {
+  background-color: #fff;
+  color: rgba(0,0,0,0.8);
+}
+.dark-mode body {
+  background-color: #091a28;
+  color: #ebf4f1;
+}
+
+</style>
