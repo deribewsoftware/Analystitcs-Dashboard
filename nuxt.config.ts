@@ -19,6 +19,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "nuxt-headlessui",
     "@nuxtjs/color-mode",
+    '@morev/vue-transitions/nuxt'
   ],
   colorMode: {
     preference: 'system', // default value of $colorMode.preference
